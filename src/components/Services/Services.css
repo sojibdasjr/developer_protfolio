@@ -1,0 +1,48 @@
+.my_service{
+    font-size:60px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.my_services{
+    background-color: rgba(128, 128, 128, 0.288);
+    font-size:18px;
+    color: white;
+    margin-top: 5%;
+    border-radius: 5px;
+ 
+}
+
+.servics_box:hover {
+    transition: .4s ease;
+}
+
+.servics_box:hover{
+    transform: translateY(5px);
+    background-image: linear-gradient( 
+90deg,#f67810,#fae902);
+    
+}
+
+@media only screen and (max-width: 1024px){
+    .servics_box {
+        padding: 32px;
+        overflow: hidden;
+    }
+    .my_service{
+        font-size:20px;
+        color: white;
+        font-family: Montserrat, sans-serif;
+        font-weight: 700;
+    }
+    .pragraph{
+        font-size: 10px;
+    }
+    .container{
+        overflow: hidden;
+    }
+    
+    }

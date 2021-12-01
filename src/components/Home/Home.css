@@ -1,0 +1,79 @@
+.bg_img{
+    background-image: url(../../img/bg.jpg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75vh;
+
+}
+.developer_text{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+h4{
+    color: rgba(194, 172, 172, 0.699);
+    letter-spacing: 5px;
+    font-family: Montserrat, sans-serif;
+}
+.developer_name{
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
+    
+}
+
+.mern_stack{
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px){
+    .bg_img{
+        background-image: url(../../img/bg.jpg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    }
+    .developer_name{
+        font-size: 1.58rem;
+        font-weight: 700;
+        font-family: Montserrat, sans-serif;
+        letter-spacing: 2px;
+        
+    }
+    h4{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 15px;
+    }
+
+   }
+   @media only screen and (max-width: 425px){
+    .bg_img{
+        background-image: url(../../img/bg.jpg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    }
+    .developer_name{
+        margin-top: 12rem;
+        font-size: 1.58rem;
+        font-weight: 700;
+        font-family: Montserrat, sans-serif;
+        letter-spacing: 2px;
+        
+    }
+    h4{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 15px;
+    }
+   }
