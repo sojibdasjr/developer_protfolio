@@ -16,9 +16,11 @@ const Navigation = () => {
 
       <Nav.Link style={{color:'rgb(240, 236, 13)', fontWeight:'600'}}  as={Link} to="/services">Services</Nav.Link>
 
-      <Nav.Link style={{color:'rgb(240, 236, 13)', fontWeight:'600'}}  as={Link} to="/protfolio">Protfolio</Nav.Link>
+      <Nav.Link style={{color:'rgb(240, 236, 13)', fontWeight:'600'}}  as={Link} to="/project">Projects</Nav.Link>
 
       <Nav.Link style={{color:'rgb(240, 236, 13)', fontWeight:'600'}}  as={Link} to="/blog">Blog</Nav.Link>
+
+      <Nav.Link style={{color:'rgb(240, 236, 13)', fontWeight:'600'}}  as={Link} to="/contact">Contact</Nav.Link>
     </Nav>
 
 </Navbar.Collapse>

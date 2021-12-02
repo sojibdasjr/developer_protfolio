@@ -11,6 +11,9 @@ import Footer from './components/Footer/Footer';
 import Protfolio from './components/Protfolio/Protfolio';
 import Blog from './components/Blog/Blog';
 import SimbaStore from './components/ProdectDetails/SimbaStore/SimbaStore';
+import Holiday from './components/ProdectDetails/Holiday/Holiday';
+import HouseMed from './components/ProdectDetails/HouseMed/HouseMed';
+import Contact from './components/Contact/Contact';
 
 
 
@@ -30,14 +33,23 @@ function App() {
           <Route path='/services'>
             <Services></Services>
           </Route>
-          <Route path='/protfolio'>
+          <Route path='/project'>
             <Protfolio></Protfolio>
           </Route>
           <Route path='/blog'>
             <Blog></Blog>
           </Route>
+          <Route path='/contact'>
+            <Contact></Contact>
+          </Route>
           <Route path='/simba'>
             <SimbaStore></SimbaStore>
+          </Route>
+          <Route path='/holiday'>
+            <Holiday></Holiday>
+          </Route>
+          <Route path='/housemed'>
+            <HouseMed></HouseMed>
           </Route>
           
         </Switch>

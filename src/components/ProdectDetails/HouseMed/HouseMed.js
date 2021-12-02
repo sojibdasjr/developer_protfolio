@@ -3,30 +3,24 @@ import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faForward, faLowVision} from '@fortawesome/free-solid-svg-icons'
-import img1 from '../../../img/Protfolio_projects/Simba/1st.png'
-import img2 from '../../../img/Protfolio_projects/Simba/3rd.png'
-import img4 from '../../../img/Protfolio_projects/Simba/4rd.png'
-import img5 from '../../../img/Protfolio_projects/Simba/5th.png'
+import img1 from '../../../img/Protfolio_projects/House MED/1st.png'
+import img2 from '../../../img/Protfolio_projects/House MED/2nd.png'
+import img4 from '../../../img/Protfolio_projects/House MED/3rd.png'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import './SimbaStore.css'
-
-
 
 const handleClickVisti = () => {
-  window.open("https://simba-store-3af0e.web.app/");
-};
+    window.open("https://house-medical-project.web.app/");
+  };
+  
+  const handleClickGitHubClint = () => {
+    window.open("https://github.com/sojibdasjr/house_med");
+  };
+ 
 
-const handleClickGitHubClint = () => {
-  window.open("https://github.com/sojibdasjr/simba_store_client");
-};
-const handleClickGitHubServer = () => {
-  window.open("https://github.com/sojibdasjr/simba_store_server");
-};
-
-const SimbaStore = () => {
+const HouseMed = () => {
     return (
         <div className='container'>
-            <h2 className='simba_title'>Simba Store Project Details</h2>
+            <h2 className='simba_title'>House Medical Project Details</h2>
             <div className = 'row gx-5 mt-5'>
                 <div className= 'col-12 col-lg-6'>
                 <Carousel fade>
@@ -57,29 +51,18 @@ const SimbaStore = () => {
 
   </Carousel.Item>
 
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={img5}
-      alt="Third slide"
-    />
-
-  </Carousel.Item>
-
 </Carousel>
                 </div>
                 <div className= 'col-12 col-lg-6'>
                     <div className='project-details'>
-                        <h2 className='mt-2'>  Simba Store</h2>
+                        <h2 className='mt-2'>House Medical</h2>
                         
                         <button onClick={handleClickVisti}><FontAwesomeIcon icon={faLowVision} />  Visit</button>
                         <button onClick={handleClickGitHubClint}><FontAwesomeIcon icon={faGithub} /> GitHub Client</button>
-                        <button onClick={handleClickGitHubServer}><FontAwesomeIcon icon={faGithub} /> GitHub Server</button>
                         <h2 className='mt-4'>OverView Project</h2>
-                        <h3> <FontAwesomeIcon icon={faForward} /> Users are able to add a review and that review appears on the home page.</h3>
-                        <h3><FontAwesomeIcon icon={faForward} /> A User can be able to buy a product and remove his order.</h3>
-                        <h3><FontAwesomeIcon icon={faForward} /> An Admin is able to manage all orders, make another admin, add more products on the
-                        products page.</h3>
+                        <h3> <FontAwesomeIcon icon={faForward} /> Medical and dental terminology</h3>
+                        <h3><FontAwesomeIcon icon={faForward} /> Patient Confidentiality</h3>
+                        <h3><FontAwesomeIcon icon={faForward} /> Sign in is required to request order for to view client dashboard with services status</h3>
 
                     </div>
                 </div>
@@ -91,4 +74,4 @@ const SimbaStore = () => {
     );
 };
 
-export default SimbaStore;
+export default HouseMed;

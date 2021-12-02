@@ -25,13 +25,14 @@ const Protfolio = () => {
                     <div className="col-12  col-lg-6">
                         <div className="p-5 ">
                         <img style={{width:'100%'}} src={img_2} alt="" />
-                            <button>DETAILS</button>
+                        <Link to ='/holiday'><button>DETAILS</button></Link>
+                        
                         </div>
                     </div>
                     <div className="col-12  col-lg-6">
                         <div className="p-5">
                         <img style={{width:'100%'}} src={img_3} alt="" />
-                            <button>DETAILS</button>
+                        <Link to ='/housemed'><button>DETAILS</button></Link>
                         </div>
                     </div>
                     <div className="col-12  col-lg-6">
