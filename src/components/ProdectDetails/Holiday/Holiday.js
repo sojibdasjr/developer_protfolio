@@ -71,7 +71,7 @@ const Holiday = () => {
                 </div>
                 
             </div>
-            <Link  to ='/services'><button className='mt-5'>Back </button></Link>
+            <Link  to ='/project'><button className='mt-5'>Back </button></Link>
             
         </div>
     );
